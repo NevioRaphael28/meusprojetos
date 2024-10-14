@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nevio Raphael</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo">NR</div>
+             <ul class="nav-links">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Contato</a></li>
+             </ul>   
+        </nav>
+    </header>
+    
+    <main>
+        <section id="sobre" class="dev container fade-in">
+            <div class="dev-texto">
+                <h1>Nevio Raphael</h1>
+                <p>Eu sou um desenvolvedor front-end que gosta muito de criar páginas web bonitas e funcionais.</p>
+                <a class="botao-de-contato" href="#contato">Entre em contato</a>
+            </div>
+
+            <div class="dev-imagem">
+                <img src="./img/dude.png" class="imagem-perfil">
+            </div>
+        </section>
+
+        <section id="skills" class="container fade-in">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                    <div class="skills-item">&#128187;
+                        <div class="skill-icon"></div>
+                            <h3>FrontEnd</h3>
+                            <p>HTML, CSS, JavaScript e React</p>
+                    </div>
+                    <div class="skills-item">&#128295;
+                        <div class="skill-icon"></div>
+                            <h3>BackEnd</h3>
+                            <p>Node.Js, C# e Python</p>
+                    </div>
+                    <div class="skills-item">&#128202;
+                        <div class="skill-icon"></div>
+                            <h3>Banco de Dados</h3>
+                            <p>SQL, MongoDB</p>
+                    </div>
+                    <div class="skills-item">&#128736;
+                        <div class="skill-icon"></div>
+                            <h3>Ferramentas</h3>
+                            <p>GitHub, MS-Azure e AWS</p>
+                    </div>
+            </div>
+        </section>
+
+        <!-- Continuação do vídeo-->
+        <section id="projetos" class="container fade-in">
+            <h2>Projetos</h2>
+            <div class="projetos-grid">
+                <div class="projeto-card">
+                    <h3 class="titulo-projeto">Site de E-commerce</h3>
+                    <p>
+                        " Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, 
+                        e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos 
+                        e os embaralhou para fazer um livro de modelos de tipos. "
+                    </p>
+                    <div class="projeto-tags">
+                        <span>React</span>
+                        <span>Node.Js</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+
+                <div class="projeto-card">
+                    <h3 class="titulo-projeto">App de Gerenciamento de Tarefas</h3>
+                    <p>
+                        " Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, 
+                        e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos 
+                        e os embaralhou para fazer um livro de modelos de tipos. "
+                    </p>
+                    <div class="projeto-tags">
+                        <span>React</span>
+                        <span>Firebase</span>
+                        <span>Material UI</span>
+                    </div>
+                </div>
+
+                <div class="projeto-card">
+                    <h3 class="titulo-projeto">Dashboard Clime</h3>
+                    <p>
+                        " Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, 
+                        e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos 
+                        e os embaralhou para fazer um livro de modelos de tipos. "
+                    </p>
+                    <div class="projeto-tags">
+                        <span>Javascript</span>
+                        <span>API</span>
+                        <span>Vue.Js</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato fade-in">
+            <h2 class="titulo-contato">Entre em Contato</h2>
+            <form class="contato-form">
+                <div class="grupo-formulario">
+                    <label for="nome">Nome</label>
+                    <input id="nome" name="nome" required placeholder="Seu nome completo">
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" required placeholder="Seu email">
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="telefone">Telefone</label>
+                    <input id="telefone" name="telefone" required placeholder="(xx)xxxxx-xxxx">
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="nome">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" required placeholder="Escreva aqui sua mensagem..."></textarea>
+                </div>
+
+                <button type="submit">Mandar Mensagem</button>
+            </form>
+        </section>
+
+        <footer>
+            <ul class="icones-footer"></ul>
+            <p>& Nevio Raphael. Todos os direitos reservados.</p>
+        </footer>
+    </main>
+</body>
+</html>
